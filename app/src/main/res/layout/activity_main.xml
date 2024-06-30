@@ -22,30 +22,35 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/led_all_on" />
+        android:text="@string/led_on" />
 
     <CheckBox
         android:id="@+id/led1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/led_1" />
+        android:text="@string/led_1"
+        android:onClick="ledOnClick"/>
 
     <CheckBox
         android:id="@+id/led2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/led_2" />
+        android:text="@string/led_2"
+        android:onClick="ledOnClick"/>
+
 
     <CheckBox
         android:id="@+id/led3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/led_3" />
+        android:text="@string/led_3"
+        android:onClick="ledOnClick"/>
 
     <CheckBox
         android:id="@+id/led4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/led_4" />
+        android:text="@string/led_4"
+        android:onClick="ledOnClick"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
